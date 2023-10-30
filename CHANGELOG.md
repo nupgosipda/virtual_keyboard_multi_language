@@ -30,3 +30,7 @@
 ## [1.0.3] - 06/07/2022.
 
 * null safety 
+
+## [1.1.0] - 30/10/2023.
+
+* Full Customizable layout.
