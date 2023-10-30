@@ -58,6 +58,8 @@ List<VirtualKeyboardKey> _getKeyboardRowKeys(
         capsText: key.toUpperCase(),
         keyType: VirtualKeyboardKeyType.String,
       );
+    } else if (layoutKeys.activeLayout[rowNum][keyNum] is VirtualKeyboardKey) {
+      return layoutKeys.activeLayout[rowNum][keyNum];
     } else {
       var action =
           layoutKeys.activeLayout[rowNum][keyNum] as VirtualKeyboardKeyAction;
